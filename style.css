@@ -43,3 +43,12 @@ li {
     background-color: #f1f1f1;
 }
 
+.profile-image,
+.company-logo,
+.university-logo {
+    max-width: 200px; /* Defina o tamanho máximo da imagem */
+    height: auto; /* Mantenha a proporção da imagem */
+    display: block; /* Remova espaços verticais indesejados */
+    margin: 10px 0; /* Adicione margem para espaçamento */
+}
+
