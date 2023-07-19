@@ -46,7 +46,7 @@ li {
 .profile-image,
 .company-logo,
 .university-logo {
-    max-width: 200px; /* Defina o tamanho máximo da imagem */
+    max-width: 20px; /* Defina o tamanho máximo da imagem */
     height: auto; /* Mantenha a proporção da imagem */
     display: block; /* Remova espaços verticais indesejados */
     margin: 10px 0; /* Adicione margem para espaçamento */
