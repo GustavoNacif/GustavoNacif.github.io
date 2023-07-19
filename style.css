@@ -51,3 +51,45 @@ li {
     margin: 10px 0; /* Adicione margem para espaçamento */
 }
 
+/* Media queries for responsive design */
+@media only screen and (max-width: 768px) {
+    /* Adjust header font-size for smaller screens */
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Make the images responsive by reducing their max-width */
+    .profile-image,
+    .company-logo,
+    .university-logo {
+        max-width: 80px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjust header font-size for even smaller screens */
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+
+    /* Make the images even smaller for tiny screens */
+    .profile-image,
+    .company-logo,
+    .university-logo {
+        max-width: 60px;
+    }
+
+    /* Reduce padding in sections for more compact layout */
+    .about,
+    .experience,
+    .education,
+    .contact {
+        padding: 1rem;
+    }
+}
