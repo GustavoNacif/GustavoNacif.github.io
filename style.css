@@ -78,7 +78,7 @@ li {
 
 /* Style each individual header link */
 .header-link {
-    padding: 5px 10px;
+    padding: 5px;
     background-color: #007BFF;
     color: #fff;
     text-decoration: none;
